@@ -58,7 +58,7 @@ function Achievements() {
 
   return (
     <div className="container">
-      <h1 className="mt-4 mb-5 text-center">Certifications</h1>
+      <h1 className="mt-4 mb-5 text-center">Achievements</h1>
       <div className="row">
         {certifications.map((certification, index) => (
           <div key={index} className="col-md-6">
