@@ -27,7 +27,7 @@ function WorkExperience() {
 
   return (
     <div className="container">
-      <h1 className="mt-4 mb-5 ">Work Experience</h1>
+      <h1 className="mt-4 mb-5 text-center">Work Experience</h1>
       <div className="row">
         {experiences.map((experience, index) => (
           <div key={index} className="col-md-6">
