@@ -6,7 +6,7 @@ function handleClick() {
   const pdfUrl = "CharanyaSatpute.pdf";
   const link = document.createElement("a");
   link.href = pdfUrl;
-  link.download = "CharanyaSatpute.pdf";
+  link.download = "CHARANYA SATPUTE RESUME.pdf";
   document.body.appendChild(link);
   link.click();
 }
