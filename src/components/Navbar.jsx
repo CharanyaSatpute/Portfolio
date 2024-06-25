@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function handleClick() {
-  const pdfUrl = "CharanyaSatpute.pdf";
+  const pdfUrl = "CHARANYA SATPUTE RESUME.pdf";
   const link = document.createElement("a");
   link.href = pdfUrl;
   link.download = "CHARANYA SATPUTE RESUME.pdf";
